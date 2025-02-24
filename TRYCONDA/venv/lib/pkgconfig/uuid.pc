@@ -1,0 +1,11 @@
+prefix=/home/jeromine/Documents/Scripts_python/Courses_2025/TRYCONDA/venv
+exec_prefix=/home/jeromine/Documents/Scripts_python/Courses_2025/TRYCONDA/venv
+libdir=/home/jeromine/Documents/Scripts_python/Courses_2025/TRYCONDA/venv/lib
+includedir=/home/jeromine/Documents/Scripts_python/Courses_2025/TRYCONDA/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

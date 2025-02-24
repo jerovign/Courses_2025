@@ -1,0 +1,11 @@
+prefix=/home/jeromine/Documents/Scripts_python/Courses_2025/TRYCONDA/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/jeromine/Documents/Scripts_python/Courses_2025/TRYCONDA/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
